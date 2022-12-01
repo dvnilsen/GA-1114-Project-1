@@ -10,6 +10,7 @@ HTML, CSS, and JS
 - MVP goals:
 1. Interactive game board that will alternate between players and check for all winning conditions.  
 2. Pretty CSS styling with colors and shapes that pop and will make the player want to stay in the game for hours on end!
+3. A Reset button that resets the board without having to manually change every space back to blank (which I did for tic tac toe), and without refreshing the page.
 
 - Stretch goals:
 1. An alternate version where each player only has 4 tokens total, and on the player's fifth move their first token disappears.
