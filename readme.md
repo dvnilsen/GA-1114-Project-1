@@ -1,22 +1,27 @@
-- Elevator pitch:
-The only thing more fun than tic tac toe 3 in a row is... tic tac toe 4 in a row! In this alternate version of the game, the board is 5x5 instead of 3x3, and a player has to get 4 in a row to win.  
+# GA-1114-Project-1
 
-- Tech stack:
+## Elevator pitch:
+The most epic showdowns on the playground or in the classroom - it's Connect Four!  Humilate your friends and foes alike, and become the champion who gets the satisfying privilege of pulling out the bottom of the board and watching all the pieces crash to the table in celebration of your total victory! 
+
+## Tech stack:
 HTML, CSS, and JS
 
-- Wireframe:
+## Wireframe:
+![Project Wireframe](.Assets/Wireframe_1.png "Project Wireframe")  
 
-
-- MVP goals:
+## MVP goals:
 1. Interactive game board that will alternate between players and check for all winning conditions.  
-2. Pretty CSS styling with colors and shapes that pop and will make the player want to stay in the game for hours on end!
-3. A Reset button that resets the board without having to manually change every space back to blank (which I did for tic tac toe), and without refreshing the page.
+2. Input fields that allow each player to enter their name before the start of the game. Each player's unique name will be displayed during their turn and upon winning. 
+3. CSS styling with colors and shapes that "pop".
+4. A button that resets the board without manually updating every space back to blank, and also without refreshing the page.
 
-- Stretch goals:
-1. An alternate version where each player only has 4 tokens total, and on the player's fifth move their first token disappears.
-2. An option for a computer player that will select a space randomly.
+## Stretch goals:
+1. A clinking sound that plays each time a player "drops" a piece. 
+2. Big clinky/crashy sound when a player wins and hits the "empty game pieces" button. 
+3. An option for a computer that selects spaces at random. 
 
-- Potential roadblocks:
-1. CSS styling is still my weak point (which is why I want to use this project specifically to improve that).
-2. This board is larger with way more winning combinations, my JS functions will be more complicated and I need to do extensive testing to make sure the logic covers all possibilites and no edge cases are missed.
-# GA-1114-Project-1
+## Potential roadblocks:
+1. CSS styling is still my weak point.  I want to make sure the game doesn't look like a webpage from the 90's. 
+2. Connect Four has far more winning combinations and my JS code will have to account for much more logic per turn.  Extensive testing for edge cases will be needed throughout the build process.  
+
+
