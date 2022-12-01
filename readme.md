@@ -7,7 +7,7 @@ The most epic showdowns on the playground or in the classroom - it's Connect Fou
 HTML, CSS, and JS
 
 ## Wireframe:
-![Project Wireframe](.Assets/Wireframe_1.png "Project Wireframe")  
+![Project Wireframe](https://github.com/dvnilsen/GA-1114-Project-1/blob/main/Assets/Wireframe_1.png "Project Wireframe")  
 
 ## MVP goals:
 1. Interactive game board that will alternate between players and check for all winning conditions.  
