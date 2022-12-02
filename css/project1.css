@@ -1,0 +1,43 @@
+
+body {
+    background-color: antiquewhite;
+    text-align: center;
+    align-items: center;
+}
+
+.board {
+    height: 600px;
+    width: 700px;
+    margin: 0 auto;
+    background-color: rgb(200, 200, 0);
+    border-left: 8px solid blue; 
+    border-right: 8px solid blue;
+    border-radius: 5%;
+    border-bottom: 25px solid blue;
+    box-shadow: 0px 0px 10px 7px;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    
+}
+
+.space {
+    border: 3px solid grey;
+    border-radius: 100%;
+    height: 80px;
+    width: 80px;
+    background-color: antiquewhite;
+    text-align: center;
+    margin: 0 auto;
+    box-shadow: 0px 0px 3px 2px;
+
+}
+
+.inputs {
+    background-color: white;
+}
+
+.reset {
+    padding: 20;
+}
