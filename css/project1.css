@@ -1,8 +1,25 @@
 
+html {
+    height: 100%;
+    width: 100%;
+}
 body {
+    /* background-image: linear-gradient(antiquewhite, bisque); */
     background-color: antiquewhite;
     text-align: center;
     align-items: center;
+}
+
+h1 {
+    text-align: center;
+    width: 100%;
+    padding: 5px;
+    font-family: sans-serif;
+
+}
+
+h2 {
+    font-family: sans-serif;
 }
 
 .board {
@@ -10,10 +27,9 @@ body {
     width: 700px;
     margin: 0 auto;
     background-color: rgb(200, 200, 0);
-    border-left: 8px solid blue; 
-    border-right: 8px solid blue;
-    border-radius: 5%;
-    border-bottom: 25px solid blue;
+    border-left: 20px solid rgb(0, 0, 155); 
+    border-right: 20px solid rgb(0, 0, 155); 
+    border-bottom: 40px solid rgb(0, 0, 205); 
     box-shadow: 0px 0px 10px 7px;
     display: grid;
     align-items: center;
@@ -30,14 +46,23 @@ body {
     background-color: antiquewhite;
     text-align: center;
     margin: 0 auto;
-    box-shadow: 0px 0px 3px 2px;
+    box-shadow: 0px 0px 2px 3px;
 
 }
 
 .inputs {
     background-color: white;
+    text-align: center;
+    padding: 5px;
+    box-shadow: 0px 0px 2px 1px;
+    margin: 0px 10px 10px 10px;
+    
+    
 }
 
 .reset {
-    padding: 20;
+    padding: 8px;
+    border-radius: 9%;
+    background-color: salmon;
+    box-shadow: 0px 0px 2px 1px;
 }
