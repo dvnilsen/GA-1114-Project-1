@@ -15,7 +15,7 @@ for(let i=1; i<42; i++) {
     //After creating them, add them to the screen
     board.append(newSpace);
     newSpace.addEventListener("click", function() {
-        //console.log(newSpace.id); 
+        console.log(newSpace.id); 
         let newSpaceID = newSpace.id;
         let numberID = Number(newSpaceID);
         //console.log(numberID + 7); 
