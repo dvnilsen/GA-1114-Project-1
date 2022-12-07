@@ -27,9 +27,9 @@ h2 {
     width: 700px;
     margin: 0 auto;
     background-color: rgb(200, 200, 0);
-    border-left: 20px solid rgb(0, 0, 155); 
-    border-right: 20px solid rgb(0, 0, 155); 
-    border-bottom: 40px solid rgb(0, 0, 205); 
+    border-left: 20px solid rgb(0, 0, 180); 
+    border-right: 20px solid rgb(0, 0, 180); 
+    border-bottom: 40px solid rgb(0, 0, 230); 
     box-shadow: 0px 0px 10px 7px;
     display: grid;
     align-items: center;
@@ -45,7 +45,6 @@ h2 {
     width: 80px;
     background-color: antiquewhite;
     color: antiquewhite;
-
     text-align: center;
     margin: 0 auto;
     box-shadow: 0px 0px 2px 3px;

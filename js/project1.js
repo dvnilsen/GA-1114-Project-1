@@ -1,3 +1,7 @@
+
+let currentPlayer = "red";
+let currentStatus = document.querySelector("h2"); 
+
 let board = document.querySelector(".board");
 let spaceZero = document.getElementById("0");
 
@@ -121,29 +125,80 @@ space41.addEventListener("click", rowSeven);
 
 // DROP FUNCTION FOR ROW ONE
 function rowOne() {
+if(currentPlayer === "red") { 
   if(space35.innerText === "." && space28.innerText === "." && space21.innerText === "." && space14.innerText === "." && spaceSeven.innerText === ".") {
     space35.style.backgroundColor = "darkred";
     space35.innerText = " ";
+    currentPlayer = "black"
+    currentStatus.innerText = "Player 2, it's your turn!"
   }
   else if(space28.innerText === "." && space21.innerText === "." && space14.innerText === "." && spaceSeven.innerText === ".") {
     space28.style.backgroundColor = "darkred"
     space28.innerText = " ";
+    currentPlayer = "black"
+    currentStatus.innerText = "Player 2, it's your turn!"
   }
   else if(space21.innerText === "." && space14.innerText === "." && spaceSeven.innerText === ".") {
     space21.style.backgroundColor = "darkred"
     space21.innerText = " ";
+    currentPlayer = "black"
+    currentStatus.innerText = "Player 2, it's your turn!"
   }
   else if(space14.innerText === "." && spaceSeven.innerText === ".") {
     space14.style.backgroundColor = "darkred"
     space14.innerText = " ";
+    currentPlayer = "black"
+    currentStatus.innerText = "Player 2, it's your turn!"
   }
   else if(spaceSeven.innerText === ".") {
     spaceSeven.style.backgroundColor = "darkred"
     spaceSeven.innerText = " ";
+    currentPlayer = "black"
+    currentStatus.innerText = "Player 2, it's your turn!"
   }
   else {
     spaceZero.style.backgroundColor = "darkred"
+    currentPlayer = "black"
+    currentStatus.innerText = "Player 2, it's your turn!"
   }
+}
+else {
+    if(space35.innerText === "." && space28.innerText === "." && space21.innerText === "." && space14.innerText === "." && spaceSeven.innerText === ".") {
+        space35.style.backgroundColor = "black";
+        space35.innerText = " ";
+        currentPlayer = "red"
+        currentStatus.innerText = "Player 1, it's your turn!"
+      }
+      else if(space28.innerText === "." && space21.innerText === "." && space14.innerText === "." && spaceSeven.innerText === ".") {
+        space28.style.backgroundColor = "black"
+        space28.innerText = " ";
+        currentPlayer = "red"
+        currentStatus.innerText = "Player 1, it's your turn!"
+      }
+      else if(space21.innerText === "." && space14.innerText === "." && spaceSeven.innerText === ".") {
+        space21.style.backgroundColor = "black"
+        space21.innerText = " ";
+        currentPlayer = "red"
+        currentStatus.innerText = "Player 1, it's your turn!"
+      }
+      else if(space14.innerText === "." && spaceSeven.innerText === ".") {
+        space14.style.backgroundColor = "black"
+        space14.innerText = " ";
+        currentPlayer = "red"
+        currentStatus.innerText = "Player 1, it's your turn!"
+      }
+      else if(spaceSeven.innerText === ".") {
+        spaceSeven.style.backgroundColor = "black"
+        spaceSeven.innerText = " ";
+        currentPlayer = "red"
+        currentStatus.innerText = "Player 1, it's your turn!"
+      }
+      else {
+        spaceZero.style.backgroundColor = "black"
+        currentPlayer = "red"
+        currentStatus.innerText = "Player 1, it's your turn!"
+}
+}
 }
 
 // DROP FUNCTION FOR ROW TWO
