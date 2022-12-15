@@ -11,9 +11,8 @@ HTML, CSS, and JS
 
 ## MVP goals:
 1. Interactive game board that will alternate between players and check for all winning conditions.  
-2. Input fields that allow each player to enter their name before the start of the game. Each player's unique name will be displayed during their turn and upon winning. 
-3. CSS styling with colors and shapes that "pop".
-4. A button that resets the board without manually updating every space back to blank, and also without refreshing the page.
+3. CSS styling with colors and shapes that mimic a real life connect 4 game.
+4. A button that resets the board without refreshing the page.
 
 ## Stretch goals:
 1. A clinking sound that plays each time a player "drops" a piece. 
